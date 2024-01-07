@@ -1,0 +1,39 @@
+
+
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #2c3e50; 
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .navigation-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navigation-bar a:hover {
+    background-color: #34495e; 
+    color: #ecf0f1;
+  }
+  
+  .navigation-bar .active-link {
+    background-color: #18bc9c; 
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navigation-bar {
+      flex-direction: column;
+    }
+  
+    .navigation-bar a {
+      margin-bottom: 10px;
+    }
+  }
+  

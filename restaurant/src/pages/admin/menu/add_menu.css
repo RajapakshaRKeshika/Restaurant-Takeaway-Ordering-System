@@ -1,0 +1,111 @@
+
+.admin-dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-dashboard h1, .admin-dashboard h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .admin-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .admin-menu {
+    flex-basis: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .admin-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .admin-menu a:hover, .admin-menu a.active {
+    background-color: #ddd;
+  }
+  
+  .admin-form-container {
+    flex-basis: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .admin-menu-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-menu-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .admin-menu-form input[type="text"],
+  .admin-menu-form input[type="number"],
+  .admin-menu-form select,
+  .admin-menu-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .admin-menu-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-menu-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

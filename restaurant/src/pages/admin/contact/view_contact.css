@@ -1,0 +1,36 @@
+
+.admin-dashboard-container {
+    padding: 20px;
+  }
+  
+  .message-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message-item p {
+    margin: 10px 0;
+  }
+  
+  .message-item input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  .message-item button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+
+  

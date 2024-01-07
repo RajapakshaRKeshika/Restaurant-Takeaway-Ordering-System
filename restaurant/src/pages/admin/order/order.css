@@ -1,0 +1,68 @@
+.admin-dashboard-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .admin-dashboard {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .admin-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .orders-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .order-item button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .order-item button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .admin-menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .order-item button {
+      margin-bottom: 5px;
+    }
+  }
+  
