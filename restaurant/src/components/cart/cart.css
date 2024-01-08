@@ -1,0 +1,88 @@
+/* checkout.css */
+
+.checkout-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .cart-items-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-items-list li button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart-items-list li button:hover {
+    background-color: #ff7875;
+  }
+  
+  .customer-info-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-info-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .customer-info-form label {
+    margin-bottom: 5px;
+  }
+  
+  .customer-info-form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .customer-info-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .customer-info-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .order-success-message {
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+  }
+  

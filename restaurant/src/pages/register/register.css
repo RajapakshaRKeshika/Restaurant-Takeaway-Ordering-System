@@ -1,0 +1,104 @@
+
+.signup-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .signup-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 600px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup-form-container {
+    width: 100%;
+  }
+  
+  .signup-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-me input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .sign-up-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-message {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-message.success {
+    color: green;
+  }
+  
+  .signup-message.error {
+    color: red;
+  }
+  
+  .login-redirect {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-redirect a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .signup-page-content {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .signup-image-container {
+      display: none;
+    }
+  }
+  

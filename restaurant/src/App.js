@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavigationBar from './components/navigation/navigation';
-import MenuPage from './pages/home/home';
 import AddUsers from './pages/admin/add_admin/add_user';
 import AddMenu from './pages/admin/menu/add_menu';
 import Cart from './components/cart/cart';
@@ -15,13 +14,16 @@ import ContactUsPage from './pages/contact/contact';
 import MessagesPage from './pages/admin/contact/view_contact';
 import Account from './pages/account/account';
 import Logout from './pages/logout/logout';
+import AdminLogin from './pages/admin/admin_login/admin_login';
+import Home from './pages/home/home';
+import MenuPage from './pages/menu/menu';
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MenuPage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/staff/add_user" element={<AddUsers />} />
         <Route path="/staff/add_menu" element={<AddMenu />} />
@@ -36,6 +38,7 @@ function App() {
         <Route path="/staff/view_message" element={<MessagesPage />} />
         <Route path="/account" element={<Account />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/admin_login" element={<AdminLogin />} />
 
       </Routes>
     </BrowserRouter>
