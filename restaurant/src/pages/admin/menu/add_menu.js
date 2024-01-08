@@ -10,6 +10,8 @@ const AddMenu = () => {
     const [itemCategory, setItemCategory] = useState('');
     const [itemImage, setItemImage] = useState(null);
     const [successMessage, setSuccessMessage] = useState('');
+    const [successMessage2, setSuccessMessage2] = useState('');
+
     const [error, setError ] = useState('');
     const [menuItems, setMenuItems] = useState([]);
     const [editedPrices, setEditedPrices] = useState({});

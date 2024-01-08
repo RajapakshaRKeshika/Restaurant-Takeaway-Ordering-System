@@ -1,0 +1,93 @@
+/* NavigationBar.css */
+
+/* NavigationBar.css */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Evenly distribute space around items */
+  background-color: #cc9900; /* Dark yellow color for the navigation bar */
+  color: white;
+  padding: 20px 0; /* Increase padding for a taller bar */
+}
+
+/* ... rest of your CSS ... */
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allows logo to grow and take available space */
+}
+
+.logo-img {
+  height: 50px; /* Adjusted logo size for better proportion */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-grow: 2; /* Gives more space to nav links */
+  justify-content: space-around; /* Distributes links evenly */
+}
+
+.nav-links li {
+  padding: 0 10px; /* Horizontal padding for each nav item */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f2f2f2; /* Lighter color on hover */
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1; /* Allocates space similar to the logo */
+}
+
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1; /* Equal space allocation as logo and cart-link */
+}
+
+.sign-in button {
+  background-color: #996633; /* Deep dark yellow */
+  color: white;
+  border: none;
+  padding: 8px 15px; /* Slightly reduced padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px; /* Rounded corners for the button */
+}
+
+.sign-in button:hover {
+  background-color: #804d00; /* Slightly darker shade for hover effect */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .nav-links, .sign-in {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-links li {
+    padding: 5px 0; /* Vertical padding for stacked nav items */
+  }
+}
